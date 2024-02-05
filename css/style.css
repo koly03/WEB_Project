@@ -135,7 +135,7 @@ a {
     background-image: url('./img/What we do/pattern.png');
     background-blend-mode: multiply; }*/
 
-/* 
+
 .What_we_do{
     display: flex;
     justify-content: space-around;
@@ -153,10 +153,16 @@ a {
 }
 
 .photos{
-    width: 50vw ;
-    height: 80vh;
+    width: 50%;
+    height: 100% ;
 }
-.pattern > img{
+.pattern, .back-pic, .front-pic{
+    position: relative; 
+}
+
+
+
+/* .pattern > img{
     width: 70%;
     margin-left: 20%;
     margin-top: 15%;
@@ -174,18 +180,18 @@ a {
     width: 47vh;
     height: 50vh;
 
-}
+} */
 
 
 
 
 .text-part{
-    width: 50vw;
+    width: 50%;
     
 }
 .header{
     width: 100%;
-} */
+}
 
 
 
