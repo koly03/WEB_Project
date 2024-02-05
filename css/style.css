@@ -46,7 +46,14 @@ body {
 
 
 .nav_bar{
+
+    background-color: var(--clr-white);
     position: fixed;
+    display: flex;
+
+    padding: 1rem 1rem;
+
+    align-items: center;
     top:0;
     width: 100% ;
 }
