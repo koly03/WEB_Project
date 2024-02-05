@@ -41,6 +41,24 @@
 
 body {
     background-color: var(--clr-bg);
-
     font-family: var(--ff-roboto);
+}
+
+.nav_bar{
+    position: fixed;
+    top:0;
+    width: 100% ;
+}
+
+.main_nav{
+    display: flex !important;
+    margin: 0 !important;
+    list-style: none !important;
+    font-size: 1rem !important;
+}
+.main_nav ul{
+    margin-left: 50px;
+}
+li{
+    padding: 20px !important;
 }
