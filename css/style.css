@@ -45,52 +45,73 @@ body {
 }
 
 
-.nav_bar{
 
+
+/* NAV BAR */
+
+.nav_bar{
+    font-family: var(--ff-roboto);
     background-color: var(--clr-white);
     position: fixed;
     display: flex;
 
-    padding: 1rem 1rem;
+    /* padding: 1rem 1rem; */
 
     align-items: center;
     top:0;
     width: 100% ;
-}
 
+}
 .main_nav{
     display: flex !important;
     margin: 0 !important;
     list-style: none !important;
     font-size: 1rem !important;
+    
 }
 .main_nav ul{
     margin-left: 50px;
+    
 }
 li{
     padding: 20px !important;
+    
+    
 }
+li:hover{
+    background-color: #94B55C;
+}
+a {
+    color: #000;
+    background-color: transparent;
+    text-decoration: none;
+  }
+.header__logo{
+    margin-right: 5rem;
+}
+
+
+
+
+
+/* HERO SECTION */
 
 .Hero_section {
     display: flex;
 
-    height: 80vh;
+    height: 100vh;
     /* width: 100%; */
     background-image: url(/img/hero/hero-bg.png);
     background-repeat: no-repeat;
-    background-position: top center;
+    background-position: center;
     background-size: cover !important;
-
     justify-content: center;
     align-items: center !important;
-    
 
     color: var(--clr-white);
 
 }
-
 .Hero_section > span{
-
     z-index: 1;
     color: #FFF;
     text-align: center;
@@ -98,8 +119,80 @@ li{
     font-style: normal;
     font-weight: var(--fw-);
     line-height: normal;
-
     margin-top: 3.5rem;
-
     font-family: var(--ff-roboto);
 }
+
+
+
+
+
+/* WHAT WE DO */
+
+/* .What_we_do {
+    height: 100vh;
+    width: 100%;
+    background-image: url('./img/What we do/pattern.png');
+    background-blend-mode: multiply; }*/
+
+/* 
+.What_we_do{
+    display: flex;
+    justify-content: space-around;
+    height:90vh;
+    width: 90vw;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    border: black solid 2px;
+}
+
+.What_we_do  img{
+    position: relative;
+}
+
+.photos{
+    width: 50vw ;
+    height: 80vh;
+}
+.pattern > img{
+    width: 70%;
+    margin-left: 20%;
+    margin-top: 15%;
+}
+
+.back-pic > img{
+    height: 70vh;
+    width: 60vh;
+    top: -78vh;
+    left: 5vw;
+}
+.front-pic > img{
+    top: -140vh;
+    left: 30vh;
+    width: 47vh;
+    height: 50vh;
+
+}
+
+
+
+
+.text-part{
+    width: 50vw;
+    
+}
+.header{
+    width: 100%;
+} */
+
+
+
+
+
+
+
+
+
+
