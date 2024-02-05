@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel:wght@400;600;700&family=Roboto+Slab:wght@400;600;700&display=swap');
+
+:root{
+
+    /* Colors */
+    
+    --clr-accent:#056cb0;
+    --clr-bg: #e5f4f4;
+    /* --clr-bg: #F4F5F5; */
+    --clr-white: #ffffff;
+    --clr-light-gray: #E6E6E6;
+
+    /* -- Colors -- */
+
+    /* Sizes */
+    
+    --fz-16: 1rem;
+    
+    
+    /* -- Sizes -- */
+
+    /* Font Family */
+    
+    --ff-martel: 'Martel', system-ui;
+    --ff-roboto: 'Roboto Slab', system-ui;
+    
+    /* -- Font Family -- */
+
+    /* Font Weight */
+    
+    --fw-regular: 400;
+    --fw-semi-bold: 600;
+    --fw-bold: 700;
+
+    
+    /* -- Font Weight -- */
+
+}
+
+
+
+body {
+    background-color: var(--clr-bg);
+
+    font-family: var(--ff-roboto);
+}

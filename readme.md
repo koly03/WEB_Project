@@ -1,0 +1,1 @@
+Build a website for a Interior Design company, using #056cb0 as the main colour, with Hero image with email sign up, Nav-Bar, Contact-Form, Testimonials, and Footer with social links and email sign up as sections on the website, using a fade-down-right animation somewhere on the website
