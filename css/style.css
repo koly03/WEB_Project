@@ -89,6 +89,7 @@ a {
     text-decoration: none;
   }
 .header__logo{
+    padding-left: 0.7rem;
     margin-right: 5rem;
 }
 
