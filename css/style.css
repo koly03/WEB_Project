@@ -42,6 +42,7 @@
 body {
     background-color: var(--clr-bg);
     font-family: var(--ff-roboto);
+    
 }
 
 
@@ -50,6 +51,7 @@ body {
 /* NAV BAR */
 
 .nav_bar{
+    z-index: 2;
     font-family: var(--ff-roboto);
     background-color: var(--clr-white);
     position: fixed;
@@ -79,7 +81,7 @@ li{
     
 }
 li:hover{
-    background-color: #94B55C;
+    background-color: #54738C;
 }
 a {
     color: #000;
@@ -97,6 +99,7 @@ a {
 /* HERO SECTION */
 
 .Hero_section {
+    z-index: 1;
     display: flex;
 
     height: 100vh;
