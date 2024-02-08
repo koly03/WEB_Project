@@ -1,6 +1,6 @@
-@media (min-height: 1080px) {
+@media screen and(min-height: 731px) and (max-height: 1080px) {
     .Hero_section{
-        margin-bottom: 0vh;
+        margin-bottom: 20vh;
     }
 }
 
