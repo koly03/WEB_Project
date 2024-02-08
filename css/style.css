@@ -43,7 +43,10 @@ body {
     font-family: var(--ff-roboto);
     
 }
-
+/* section {
+    margin-top: 20rem;
+    margin-bottom: 20rem;
+} */
 
 
 
@@ -86,7 +89,7 @@ a {
     color: #000;
     background-color: transparent;
     text-decoration: none;
-  }
+}
 .header__logo{
     padding-left: 0.7rem;
     margin-right: 5rem;
@@ -112,6 +115,8 @@ a {
     align-items: center !important;
 
     color: var(--clr-white);
+
+    margin-bottom: 4rem;
 
 }
 .Hero_section > span{
