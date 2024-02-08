@@ -9,3 +9,11 @@
         margin-bottom: 20vh;
     }
 } */
+
+
+@media  screen and (min-height: 1079px ){
+    .Projects {
+        background-color: blue !important;
+        padding-bottom: 20vh;
+    }
+}

@@ -269,6 +269,7 @@ a {
     column-gap: 1rem;
     row-gap: 1rem;
 }
+
 .card {
     border-radius: 0.1875rem;
     background: rgba(217, 217, 217, 0.20);
@@ -325,4 +326,8 @@ a {
     width: 100%;
     display: flex;
     /* background-color: red; */
+}
+
+.Projects {
+    background-color: red;
 }
