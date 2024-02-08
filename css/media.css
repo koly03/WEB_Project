@@ -1,0 +1,12 @@
+@media screen and (min-aspect-ratio: 16/9) {
+    .Hero_section{
+        margin-bottom: 20vh;
+    }
+}
+
+
+@media screen and (min-aspect-ratio: 16/10) {
+    .Hero_section{
+        margin-bottom: 2vh;
+    }
+}
