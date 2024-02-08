@@ -1,8 +1,8 @@
-/* @media (min-height: 1199px) {
+@media (min-height: 1080px) {
     .Hero_section{
-        margin-bottom: 20vh;
+        margin-bottom: 0vh;
     }
-} */
+}
 
 /* @media screen and (min-aspect-ratio: 16/10) {
     .Hero_section{
@@ -11,9 +11,9 @@
 } */
 
 
-@media  screen and (min-height: 1079px ){
+/* @media screen and (min-height: 731px ){
     .Projects {
         background-color: blue !important;
         padding-bottom: 20vh;
     }
-}
+} */
