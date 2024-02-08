@@ -5,7 +5,7 @@
     /* Colors */
     
     --clr-accent:#056cb0;
-    --clr-bg: #e5f4f4;
+    --clr-bg: #eef6f6;
     /* --clr-bg: #F4F5F5; */
     --clr-white: #ffffff;
     --clr-light-gray: #E6E6E6;
@@ -198,9 +198,31 @@ a {
 }
 
 
+/* .back-pic::after {
+    content: '';
+    background-image: url(/img/wwd/front-pic.png);
+    background-color: red;
+    width: 500px;
+    height: 500px;  
+    display: flex;
+    position: absolute;
+    top: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
-
-
+.back-pic::before {
+    content: '';
+    position: absolute;
+    background-image: url(/img/wwd/pattern.png);
+    background-size: cover!important;
+    /* background-color: blue; */
+    width: 500px;
+    height: 500px;
+    display: flex;
+    bottom: 0;
+    left: 200px;
+} */
 
 
 
