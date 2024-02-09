@@ -80,7 +80,10 @@ li{
     
 }
 li:hover{
-    background-color: #54738C;
+    background-color: var(--clr-accent);
+}
+li:hover a{
+    color: var(--clr-white);
 }
 a {
     color: #000;
@@ -164,31 +167,7 @@ a {
 }
 
 
-/* .wwd_header {
-    display: flex;
-    gap: 2rem;
-}
 
-.wwd_header > h1 {
-    font-size: 4.375rem;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    text-transform: capitalize;
-}
-
-
-
-.cards {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 2rem;
-    flex-wrap: wrap;
-}
-.card {
-    width: 100%;
-    background-color: red;
-} */
 
 .wwd {
     /* width: 90vw; */
