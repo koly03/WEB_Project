@@ -287,6 +287,47 @@ a {
     /* background-color: red; */
 }
 
-.Projects {
-    background-color: red;
+
+
+.Project-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+
+    & h3 {
+        font-size: clamp(2.5rem,4vw,6rem);
+        font-weight: var(--fw-semi-bold);
+    }   
 }
+
+.Project-photos{
+    display: flex;
+    width: 100vw;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+.Project-card{
+    position: relative;
+}
+.Project-card > img{
+    width: 23rem;
+    height: 20rem;
+}
+
+.message{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    bottom: 0;
+    right: 0;
+    margin-bottom: 10%;
+    margin-right: 10%;
+}
+
+
+
