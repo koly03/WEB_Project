@@ -44,6 +44,10 @@ body {
     
 }
 
+h1, h2, h3, h4, h5, h6 {
+    text-transform: capitalize;
+}
+
 
 
 
@@ -327,6 +331,63 @@ a {
     right: 0;
     margin-bottom: 10%;
     margin-right: 10%;
+}
+
+
+
+
+.Work {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.works__header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+
+    h4 {
+        text-align: center;
+        font-family: "Roboto Slab";
+        font-size: 4.375rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+}
+
+.slider {
+    display: flex;
+    gap: 1rem;
+}
+
+.slider__card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+.card__img {
+    /* aspect-ratio: 4/3; */
+    /* object-fit: cover; */
+    max-width: 572px;
+}
+.pagination {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 1rem;
+}
+
+.left__arrow,
+.right__arrow {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+.right__arrow {
+    flex-direction: row-reverse;
 }
 
 
