@@ -296,6 +296,13 @@ a {
 
 
 
+
+
+
+
+
+/* Project part */
+
 .Project-header{
     display: flex;
     justify-content: center;
@@ -326,16 +333,22 @@ a {
 
 .message{
     position: absolute;
-    width: 100px;
-    height: 100px;
+    width: 10rem;
+    height: 8rem;
     background-color: red;
     bottom: 0;
     right: 0;
     margin-bottom: 10%;
-    margin-right: 10%;
+    margin-right: 20%;
 }
 
 
+
+
+
+
+
+/* Our works part */
 
 .Our_works {
     display: flex;
