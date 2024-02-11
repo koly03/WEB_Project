@@ -46,6 +46,9 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
     text-transform: capitalize;
+    font-size: clamp(1.75rem,3vw,5rem);
+    font-weight: var(--fw-semi-bold);
+    font-family: var(--ff-roboto);
 }
 
 
@@ -304,6 +307,7 @@ a {
     & h3 {
         font-size: clamp(2.5rem,4vw,6rem);
         font-weight: var(--fw-semi-bold);
+        font-family: var(--ff-roboto);
     }   
 }
 
@@ -312,7 +316,6 @@ a {
     width: 100vw;
     justify-content: space-between;
     align-items: center;
-   
 }
 .Project-card{
     position: relative;
@@ -335,67 +338,12 @@ a {
 
 
 
-
-/* .Work {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.works__header {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 1.5rem;
-
-    h4 {
-        text-align: center;
-        font-family: "Roboto Slab";
-        font-size: 4.375rem;
-        font-style: normal;
-        font-weight: 700;
-        line-height: normal;
-    }
-}
-
-.slider {
-    display: flex;
-    gap: 1rem;
-}
-
-.slider__card {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 1rem;
-}
-.card__img {
-    /* aspect-ratio: 4/3; */
-    /* object-fit: cover; */
-    /* max-width: 572px;
-} */
-/* .pagination {
-    display: flex;
-    flex-direction: row-reverse;
-    gap: 1rem;
-}
-
-.left__arrow,
-.right__arrow {
-    display: flex;
-    align-items: center;
-    gap: 0.5rem;
-}
-.right__arrow {
-    flex-direction: row-reverse;
-} */
-
-
-
 .Our_works {
     display: flex;
     flex-direction: column;
     gap: 2rem;
+
+    padding-bottom: 2.5rem;
 }
 
 .ow-header {
@@ -423,12 +371,9 @@ a {
     gap: 1.5rem;
 }
 .ow-header h4 { 
-    font-family: "Roboto Slab";
-    font-size: 70px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    text-transform: capitalize;
+    font-size: clamp(2.5rem,4vw,6rem);
+    font-weight: var(--fw-semi-bold);
+    font-family: var(--ff-roboto);
 }
 
 .slider-card img {
@@ -522,4 +467,79 @@ a {
     align-items: center;
     justify-content: start;
     gap: 0.5rem;
+}
+
+.Clients {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: var(--clr-light-gray);
+	gap: 1rem;
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+}
+
+.clients-header {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	gap: 1.5rem;
+
+	padding-bottom: 2.5rem;
+}
+
+/* .clients__content {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+} */
+
+.container {
+	display: flex;
+	justify-content: space-between;
+}
+
+h5 {
+	display: flex;
+	margin-block-start: 0;
+	margin-block-end: 0;
+	margin-inline-start: 0px;
+	margin-inline-end: 0px;
+}
+
+.client__title {
+	text-align: center;
+	font-family: "Roboto Slab";
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	text-transform: capitalize;
+    padding-top: 1rem;
+}
+
+.client__subtitle {
+	text-align: center;
+	font-family: "Roboto Slab";
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	text-transform: capitalize;
+    padding-top: .25rem;
+}
+
+.clients__card {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.clients__card img {
+    max-width: 84px;
+    /* height: auto !important; */
+    aspect-ratio: 1/1;
 }
