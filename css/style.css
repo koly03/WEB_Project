@@ -206,7 +206,7 @@ a {
     align-items: center;
     flex-direction: column;
     /* padding: 0 2rem; */
-    margin-bottom: 10rem;
+    /* margin-bottom: 10rem; */
     gap: 2rem;
 }
 
@@ -301,7 +301,6 @@ a {
     justify-content: center;
     align-items: center;
     gap: 1.5rem;
-    margin-top: 2rem;
     margin-bottom: 2rem;
 
     & h3 {
