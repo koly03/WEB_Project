@@ -404,7 +404,7 @@ a {
     margin-top: 1rem;
     text-align: center !important;
 
-    ont-family: "Roboto Slab";
+    font-family: "Roboto Slab";
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
@@ -456,7 +456,7 @@ a {
     justify-content: flex-end;
     gap: 0.5rem;
 }
-.devider {
+.divider {
     background-color: var(--clr-accent);
     height: 4vh;
     width: 1px !important;
