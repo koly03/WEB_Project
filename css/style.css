@@ -335,12 +335,12 @@ a {
 .Project-card > img{
     max-width: 456px;
     max-height: 427px;
-    transition: 0.7s;
+    transition: 0.8s;
     /* width: 28.5rem;
     height: 26rem; */
 }
 .Project-card >img:hover{
-    transform: scale(1.1);
+    transform: scale(1.07);
 }
 
 .message{
