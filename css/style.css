@@ -269,7 +269,7 @@ a {
 
     & button {
         font-family: var(--ff-roboto);
-        padding: .6rem 2rem;
+        padding: .6rem 1rem;
         font-size: 0.875rem;
         font-style: normal;
         font-weight: 400;
@@ -327,19 +327,50 @@ a {
     position: relative;
 }
 .Project-card > img{
-    width: 23rem;
-    height: 20rem;
+    width: 28.5rem;
+    height: 26rem;
 }
 
 .message{
     position: absolute;
-    width: 10rem;
-    height: 8rem;
-    background-color: red;
+    width: 298px;
+    height: 12rem;
+    background-color: var(--clr-white);
     bottom: 0;
     right: 0;
     margin-bottom: 10%;
-    margin-right: 20%;
+    margin-right: 5%;
+    padding-left: 5%;
+    font-family: var(--ff-roboto);
+}
+
+.message::after{
+    position: absolute;
+    content: '';
+    width: 50px;
+    height: 30px;
+    background-color: var(--clr-white);
+    top: 83%;
+    left: 65%;
+    transform: skewY(45deg);
+}
+
+.message > h4{
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.message > button{
+    margin-top: 22px;
+    font-family: var(--ff-roboto);
+    padding: .6rem 1rem;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    background-color: var(--clr-accent);
+    color: var(--clr-white);
+    border: 0;
 }
 
 
