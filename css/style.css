@@ -277,7 +277,14 @@ a {
         background-color: var(--clr-accent);
         color: var(--clr-white);
         border: 0;
+        transition: 0.2s;
 
+    }
+    & button:hover{
+        background-color: #13527c;
+    }
+    & button:active{
+        background-color: #056cb0;
     }
 }
 
@@ -328,8 +335,12 @@ a {
 .Project-card > img{
     max-width: 456px;
     max-height: 427px;
+    transition: 0.7s;
     /* width: 28.5rem;
     height: 26rem; */
+}
+.Project-card >img:hover{
+    transform: scale(1.1);
 }
 
 .message{
