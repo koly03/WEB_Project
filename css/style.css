@@ -559,7 +559,7 @@ a {
 .slider-scrollbar .scrollbar-thumb{
     position: absolute;
     height: inherit;
-    width: 50%;
+    width: 40%;
     background-color: black;
     border-radius: inherit;
     cursor: grab;
