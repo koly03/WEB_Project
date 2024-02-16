@@ -397,7 +397,6 @@ a {
     display: flex;
     flex-direction: column;
     gap: 2rem;
-
     padding-bottom: 2.5rem;
 }
 
@@ -408,12 +407,12 @@ a {
     
 }
 
-.ow-content {
-    overflow: hidden;
+.ow-content__slider {
+    overflow: auto;
 }
 
 .ow-content__slider {
-    min-width: 110vw;
+    /* min-width: 110vw; */
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -529,7 +528,86 @@ a {
     justify-content: start;
     gap: 0.5rem;
 }
+.ow-content__slider {
+    scrollbar-width: none;
+}
 
+.ow-content__slider::-webkit-scrollbar {
+    display: none;
+}
+
+.slider-scrollbar{
+    height: 24px;
+    background-color: var(--clr-bg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.slider-scrollbar .scrollbar-track {
+    height: 2px;
+    width: 80%;
+    background-color: var(--clr-light-gray);
+    position: relative;
+    border-radius: 4px;
+}
+
+.slider-scrollbar:hover .scrollbar-track{
+    height: 4px;
+}
+
+
+.slider-scrollbar .scrollbar-thumb{
+    position: absolute;
+    height: inherit;
+    width: 50%;
+    background-color: black;
+    border-radius: inherit;
+    cursor: grab;
+}
+
+.slider-scrollbar .scrollbar-thumb:active{
+    cursor: grabbing;
+    height: 8px;
+    top: -2px;
+    
+   
+}
+
+.slider-scrollbar .scrollbar-thumb::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: -10px;
+    bottom: -10px;
+}
+.buttons{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.slide-button{
+    width: 30px;
+    height: 30px;
+    padding: 0 0 0 0;
+    border-radius: 50%;
+    margin-left: 20px;
+    cursor: pointer;
+}
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+
+
+}
+
+
+
+/* Clients */
 .Clients {
 	display: flex;
 	flex-direction: column;
