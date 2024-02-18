@@ -528,6 +528,10 @@ a {
     justify-content: start;
     gap: 0.5rem;
 }
+
+
+
+
 .ow-content__slider {
     scrollbar-width: none;
 }
@@ -545,15 +549,15 @@ a {
 }
 .slider-scrollbar .scrollbar-track {
     height: 2px;
-    width: 80%;
+    width: 100%;
     background-color: var(--clr-light-gray);
     position: relative;
     border-radius: 4px;
 }
 
-.slider-scrollbar:hover .scrollbar-track{
+/* .slider-scrollbar:hover .scrollbar-track{
     height: 4px;
-}
+} */
 
 
 .slider-scrollbar .scrollbar-thumb{
@@ -562,16 +566,16 @@ a {
     width: 40%;
     background-color: black;
     border-radius: inherit;
-    cursor: grab;
+    /* cursor: grab; */
 }
 
-.slider-scrollbar .scrollbar-thumb:active{
+/* .slider-scrollbar .scrollbar-thumb:active{
     cursor: grabbing;
     height: 8px;
     top: -2px;
     
    
-}
+} */
 
 .slider-scrollbar .scrollbar-thumb::after{
     content: "";
@@ -586,6 +590,20 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
+    
+}
+.buttons button {
+    width: 40px;
+    height: 40px;
+    background-color: var(--clr-light-gray);
+    border:black;
+}
+.buttons button:hover {
+    background-color: rgb(170, 170, 170);
+}
+
+.buttons button:active {
+    background-color: var(--clr-accent);
 }
 .slide-button{
     width: 30px;
@@ -602,8 +620,9 @@ a {
   'GRAD' 0,
   'opsz' 24
 
-
 }
+
+
 
 
 

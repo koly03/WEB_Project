@@ -13,21 +13,21 @@ const initSlider = () => {
         const handleMouseMove = (e) => {
             const deltaX = e.clientX - startX;
             const newThumbPosition = thumbPosition + deltaX;
-            const maxThumbPosition = slideScrollbar.getBoundingClientRect().width - scrollbarThumb.offsetLeft
-            const boundedPosition = Math.max(0,Math.min(maxThumbPosition, newThumbPosition));
+            const maxThumbPosition = slideScrollbar.getBoundingClientRect().width - scrollbarThumb.offsetWidth;
+            const boundedPosition = Math.max(0, Math.min(maxThumbPosition, newThumbPosition));
             const scrollPosition = (boundedPosition / maxThumbPosition) * maxScrollLeft;
 
             scrollbarThumb.style.left = `${boundedPosition}px`;
             imageList.scrollLeft = scrollPosition;
         }
 
-        const handleMouseUp = () => {
-            document.removeEventListener("mousemove", handleMouseMove);
-            document.removeEventListener("mouseup", handleMouseUp);
-        }
+        // const handleMouseUp = () => {
+        //     document.removeEventListener("mousemove", handleMouseMove);
+        //     document.removeEventListener("mouseup", handleMouseUp);
+        // }
 
-        document.addEventListener("mousemove", handleMouseMove);
-        document.addEventListener("mouseup", handleMouseUp);
+        // document.addEventListener("mousemove", handleMouseMove);
+        // document.addEventListener("mouseup", handleMouseUp);
     })
 
     slideButtons.forEach(button => {
