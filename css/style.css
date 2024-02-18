@@ -325,19 +325,20 @@ a {
 }
 
 .Project-photos{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(auto-fit,minmax(400px, 1fr));
 }
-.Project-card{
+.Project-card {
     position: relative;
+    width: fit-content;
 }
 .Project-card > img{
-    max-width: 456px;
-    max-height: 427px;
+    /* max-width: 456px; */
+    width: 100%;
+    height: auto;
+
     transition: 0.8s;
-    /* width: 28.5rem;
-    height: 26rem; */
 }
 .Project-card >img:hover{
     transform: scale(1.07);
@@ -345,8 +346,7 @@ a {
 
 .message{
     position: absolute;
-    width: 298px;
-    height: 12rem;
+    width: 65%;
     background-color: var(--clr-white);
     bottom: 0;
     right: 0;
@@ -357,7 +357,7 @@ a {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding-inline: 5%;
+    padding: 5%;
 }
 
 .message::after{
@@ -371,11 +371,15 @@ a {
     transform: skewY(45deg);
 }
 
-.message > .message-title{
-    font-size: 1.25rem;
+.message-title {
+    font-size: 1rem;
     font-weight: 700;
     font-family: var(--ff-roboto);
     margin-bottom: 15px;
+}
+
+.message-p {
+    font-size: .9rem;
 }
 
 .message > button {
@@ -392,6 +396,9 @@ a {
     color: var(--clr-white);
     border: 0;
 }
+
+
+
 
 
 
@@ -822,3 +829,4 @@ h5 {
     align-items: center;
     justify-content: center;
 }
+
