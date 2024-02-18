@@ -367,8 +367,10 @@ a {
     transform: skewY(45deg);
 }
 
-.message > h4{
-    font-size: 20px;
+.message > .message-title{
+    font-size: 1.25rem;
+    font-weight: 700;
+    font-family: var(--ff-roboto);
     margin-bottom: 15px;
 }
 
