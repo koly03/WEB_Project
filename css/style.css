@@ -352,8 +352,12 @@ a {
     right: 0;
     margin-bottom: 10%;
     margin-right: 5%;
-    padding-left: 5%;
     font-family: var(--ff-roboto);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-inline: 5%;
 }
 
 .message::after{
@@ -374,7 +378,9 @@ a {
     margin-bottom: 15px;
 }
 
-.message > button{
+.message > button {
+    max-width: fit-content;
+
     margin-top: 22px;
     font-family: var(--ff-roboto);
     padding: .6rem 1rem;
