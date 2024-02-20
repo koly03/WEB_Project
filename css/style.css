@@ -88,6 +88,7 @@ li{
 }
 li:hover{
     background-color: var(--clr-accent);
+    cursor: pointer;
 }
 li:hover a{
     color: var(--clr-white);
@@ -99,7 +100,7 @@ a {
 }
 .header__logo{
     padding-left: 0.7rem;
-    margin-right: clamp(0.5rem, 2vw, 10rem);
+    margin-right: 5%;
  }
 
 
