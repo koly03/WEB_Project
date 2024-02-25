@@ -73,12 +73,20 @@ h1, h2, h3, h4, h5, h6 {
 .top_nav{
     display: flex;
     flex-direction: row;
-
-    & button{
-        border: 0;
+    & button {
         display: none;
-        color:#2C2C2C;
+        border:0;
+        color:#2C2C2C;   
     }
+    .mobile-nav-toggle::before {
+        content: "close";
+    }
+    
+    
+    .mobile-nav-toggle.open::before {
+        content: "menu";
+    }
+    
     
 }
 
