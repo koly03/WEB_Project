@@ -18,13 +18,13 @@
     }
 
     .primary-navigation{
-        display: none ;
         padding-left: 0.7rem;
         flex-direction: column;
         height: 100%;
         /* margin-top: .3rem !important; */
         margin-bottom: .3rem !important;
     }
+    .primary-navigation.hide-on-medium{display: none;}
 
     .header__logo{
         width: 100%;
