@@ -25,7 +25,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
         } else {
             // Если меню закрыто, открываем его
-            primaryNavigation.style.display = 'block';
+            primaryNavigation.style.display = 'flex';
             mobileNavToggle.classList.add('open');
         }
     });

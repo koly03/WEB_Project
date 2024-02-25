@@ -52,8 +52,9 @@ h1, h2, h3, h4, h5, h6 {
     text-align: center;
 }
 
-
-
+.right-header img{
+    max-width: 102px;
+}
 
 /* NAV BAR */
 
@@ -69,11 +70,15 @@ h1, h2, h3, h4, h5, h6 {
     align-items: center;
     top:0;
     width: 100% ;
+    max-width: 100%;
 
 }
 .top_nav{
     display: flex;
     flex-direction: row;
+    max-width: 100%;
+
+
     & button {
         display: none;
         border:0;
@@ -88,7 +93,6 @@ h1, h2, h3, h4, h5, h6 {
     .mobile-nav-toggle.open::before {
         content: "close";
     }
-    
     
 }
 
