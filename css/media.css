@@ -6,6 +6,7 @@
     }
     .top_nav{
         width: 100%;
+        padding-block: 0.5rem;
     }
     .top_nav .header__logo img {
         width: 70%;
@@ -20,7 +21,8 @@
         padding-left: 0.7rem;
         flex-direction: column;
         height: 100%;
-        margin-top: .3rem !important;
+        /* margin-top: .3rem !important; */
+        margin-bottom: .3rem !important;
         /* position: fixed;
         inset: 0 0 0 30%;
         background-color: steelblue;
