@@ -83,7 +83,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .primary-navigation{
-    display: flex !important;
+    display: flex;
     margin: 0;
     list-style: none !important;
     font-size: clamp(0.75rem, 1vw, 2rem);

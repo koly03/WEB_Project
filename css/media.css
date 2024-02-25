@@ -18,19 +18,15 @@
     }
 
     .primary-navigation{
+        
         padding-left: 0.7rem;
         flex-direction: column;
         height: 100%;
         /* margin-top: .3rem !important; */
         margin-bottom: .3rem !important;
-        /* position: fixed;
-        inset: 0 0 0 30%;
-        background-color: steelblue;
-        flex-direction: column;
-        padding: min(30vh, 10rem) 2em;
-        background: hsl(0 0% 100% / 0.1);
-        backdrop-filter: blur(1rem); */
-    }    
+        /* transform: translateY(100%); */
+    }
+
     .header__logo{
         width: 100%;
         padding-left: 0;
