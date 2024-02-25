@@ -70,9 +70,21 @@ h1, h2, h3, h4, h5, h6 {
     width: 100% ;
 
 }
+.top_nav{
+    display: flex;
+    flex-direction: row;
+
+    & button{
+        border: 0;
+        display: none;
+        color:#2C2C2C;
+    }
+    
+}
+
 .primary-navigation{
     display: flex !important;
-    margin: 0 !important;
+    margin: 0;
     list-style: none !important;
     font-size: clamp(0.4rem, 1vw, 2rem);
     width: 100%;
@@ -562,6 +574,7 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
+    
 }
 .slider-scrollbar .scrollbar-track {
     height: 2px;
@@ -620,6 +633,7 @@ a {
 
 .buttons button:active {
     background-color: var(--clr-accent);
+    border: solid 2px #000;
 }
 .slide-button{
     width: 30px;
