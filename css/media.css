@@ -18,13 +18,12 @@
     }
 
     .primary-navigation{
-        
+        display: none ;
         padding-left: 0.7rem;
         flex-direction: column;
         height: 100%;
         /* margin-top: .3rem !important; */
         margin-bottom: .3rem !important;
-        /* transform: translateY(100%); */
     }
 
     .header__logo{
