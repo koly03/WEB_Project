@@ -4,7 +4,9 @@
         flex-direction: column;
         
     }
-    
+    .top_nav{
+        width: 100%;
+    }
     .top_nav .header__logo img {
         width: 70%;
     }
