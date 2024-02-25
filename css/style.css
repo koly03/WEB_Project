@@ -70,7 +70,7 @@ h1, h2, h3, h4, h5, h6 {
     width: 100% ;
 
 }
-.main_nav{
+.primary-navigation{
     display: flex !important;
     margin: 0 !important;
     list-style: none !important;

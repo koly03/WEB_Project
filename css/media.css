@@ -1,6 +1,23 @@
 @media (max-width:35em){
-    .main_nav{
-        
+    .primary-navigation{
+        position: fixed;
+        inset: 0 0 0 30%;
+        background-color: steelblue;
+        flex-direction: column;
+        padding: min(30vh, 10rem) 2em;
+        background: hsl(0 0% 100% / 0.1);
+        backdrop-filter: blur(1rem);
+    }    
+    .header__logo{
+        display: none;
     }
+    .mobile-nav-toggle{
+        right: 100%;
+        position: absolute !important;
+        background:red;
+        width: 1rem;
+        aspert-ratio: 1;
+    }
+        
 }
       
