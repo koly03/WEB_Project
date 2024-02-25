@@ -19,5 +19,9 @@
         aspert-ratio: 1;
     }
         
+
+    .right > .divs {
+        grid-template-columns: 1fr;
+        padding-inline: 1rem;
+    }
 }
-      
