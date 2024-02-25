@@ -49,6 +49,7 @@ h1, h2, h3, h4, h5, h6 {
     font-size: clamp(1.75rem,3vw,5rem)!important;
     font-weight: var(--fw-semi-bold);
     font-family: var(--ff-roboto);
+    text-align: center;
 }
 
 
@@ -359,7 +360,7 @@ a {
 .Project-photos{
     display: grid;
     gap: 1rem;
-    grid-template-columns: repeat(auto-fit,minmax(360px, 1fr));
+    grid-template-columns: repeat(auto-fit,minmax(320px, 1fr));
 }
 .Project-card {
     position: relative;
