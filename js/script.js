@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', function() {
     mobileNavToggle.addEventListener('click', function() {
         // Проверяем, открыто ли меню навигации
         var isExpanded = mobileNavToggle.getAttribute('aria-expanded') === 'true';
-        mobileNavToggle.setAttribute('aria-expanded', !isExpanded);
+        
 
         // Меняем состояние кнопки на противоположное
         mobileNavToggle.setAttribute('aria-expanded', !isExpanded);
@@ -20,12 +20,12 @@ document.addEventListener('DOMContentLoaded', function() {
         // Переключаем видимость списка навигации
         if (isExpanded) {
             // Если меню открыто, закрываем его
-            primaryNavigation.style.display = 'block';
+            primaryNavigation.style.display = 'none';
             mobileNavToggle.classList.remove('open');
 
         } else {
             // Если меню закрыто, открываем его
-            primaryNavigation.style.display = 'none';
+            primaryNavigation.style.display = 'block';
             mobileNavToggle.classList.add('open');
         }
     });

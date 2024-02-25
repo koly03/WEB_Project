@@ -76,15 +76,16 @@ h1, h2, h3, h4, h5, h6 {
     & button {
         display: none;
         border:0;
-        color:#2C2C2C;   
+        color:#2C2C2C;
+           
     }
     .mobile-nav-toggle::before {
-        content: "close";
+        content: "menu";
     }
     
     
     .mobile-nav-toggle.open::before {
-        content: "menu";
+        content: "close";
     }
     
     
