@@ -272,6 +272,7 @@ a {
     grid-template-columns: 1fr 1fr;
     column-gap: 1rem;
     row-gap: 1rem;
+    margin-inline: 0;
 }
 
 .card {
@@ -1002,7 +1003,6 @@ h5 {
 .social-link > img {
     width: 1.5rem;
 }
-
 
 
 
