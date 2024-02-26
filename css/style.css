@@ -35,7 +35,9 @@
     /* -- Font Weight -- */
 
 }
-
+button {
+    -webkit-appearance: none;
+}
 
 
 body {
