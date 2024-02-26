@@ -22,6 +22,7 @@
         height: 100%;
         /* margin-top: .3rem !important; */
         margin-bottom: .3rem !important;
+        font-size: 1.25rem;
     }
     .primary-navigation.hide-on-medium{display: none;}
 
@@ -42,5 +43,13 @@
     .right > .divs {
         grid-template-columns: 1fr;
         padding-inline: 1rem;
+    }
+    
+}
+
+
+@media (min-width: 35em)  and (max-width: 55em){
+    .top_nav .header__logo img {
+        width: 85%;
     }
 }
