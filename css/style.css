@@ -35,8 +35,10 @@
     /* -- Font Weight -- */
 
 }
-.submit{
-    webkit-appearance: none;
+button{
+    -webkit-appearance: none; /* Отключение стилей по умолчанию */
+         appearance: none;
+         -webkit-tap-highlight-color: transparent;
 }
 
 
@@ -82,8 +84,6 @@ h1, h2, h3, h4, h5, h6 {
 
 
     & button {
-        -webkit-appearance: none; /* Отключение стилей по умолчанию */
-         appearance: none;
         display: none;
         border:0;
         color:#2C2C2C;
