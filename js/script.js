@@ -21,12 +21,14 @@ document.addEventListener('DOMContentLoaded', function() {
         if (isExpanded) {
             // Если меню открыто, закрываем его
             primaryNavigation.style.display = 'none';
-            mobileNavToggle.classList.remove('open');
+            // mobileNavToggle.style.background = "blue";
+            // mobileNavToggle.classList.remove('open');
 
         } else {
             // Если меню закрыто, открываем его
             primaryNavigation.style.display = 'flex';
-            mobileNavToggle.classList.add('open');
+            // mobileNavToggle.style.background = "url('/img/nav/menu.png')";
+            // mobileNavToggle.classList.add('open');
         }
     });
 });
