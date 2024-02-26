@@ -89,14 +89,6 @@ h1, h2, h3, h4, h5, h6 {
         color:#2C2C2C;
            
     }
-    .mobile-nav-toggle::before {
-        content: "menu";
-    }
-    
-    
-    .mobile-nav-toggle.open::before {
-        content: "close";
-    }
     
 }
 
